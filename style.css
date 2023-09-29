@@ -27,11 +27,17 @@ nav {
   height: 50px;
   background-color: transparent;
 }
+.login-btn:hover{
+  font-size: 25px !important;
+}
 .my-cart-btn {
   border-radius: 10px !important;
   font-weight: 600 !important;
   background-color: rgb(12, 131, 31) !important;
   color: white !important;
+}
+.my-cart-btn:hover{
+  border-radius: 20px !important;
 }
 .scroll-container {
   width: 95vw;
@@ -82,16 +88,16 @@ nav {
   margin: 0px;
 }
 .my-tag {
-    position: absolute;
-    top: 0px;
-    left: 13px;
-    width: 40px;
-    text-align: center;
-    color: white;
-    font-weight: 900;
-    font-size: 13px;
-    background-color: #528cee;
-  }
+  position: absolute;
+  top: 0px;
+  left: 13px;
+  width: 40px;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: 13px;
+  background-color: #528cee;
+}
 
 footer {
   width: 95vw;
@@ -176,7 +182,32 @@ td:hover {
 }
 .insta:hover {
   color: black;
-  background-color: #d62976;
+  /* background: #f09433; */
+  /* background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  ); */
+  /* background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  ); */
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); */
   box-shadow: 3px 3px 15px black;
 }
 .linked-in:hover {
