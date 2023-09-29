@@ -1,0 +1,259 @@
+nav {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 1;
+}
+.vertical-line {
+  border-left: 2px solid #f2f2f2;
+  height: 60px;
+}
+.nav-delivery > h5 {
+  font-weight: 700;
+  margin-top: 10px;
+}
+.nav-delivery > p {
+  font-size: 13px;
+}
+.nav-search {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  border: 1px solid #f2f2f2;
+  padding-inline: 10px;
+}
+.nav-search > input {
+  border: none;
+  width: 30vw;
+  height: 50px;
+  background-color: transparent;
+}
+.my-cart-btn {
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+  background-color: rgb(12, 131, 31) !important;
+  color: white !important;
+}
+.scroll-container {
+  width: 95vw;
+  margin: auto;
+}
+.list {
+  /* display: flex; */
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+.list > img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-inline: 10px;
+}
+.list::-webkit-scrollbar {
+  display: none;
+}
+.img-container {
+  width: 95vw;
+  margin: auto;
+}
+.scroll-container {
+  margin-top: 20px;
+}
+.scroll-container > div > h4 {
+  cursor: pointer;
+}
+.my-card {
+  display: inline-block !important;
+  width: 200px !important;
+  /* height:300px !important; */
+  box-sizing: border-box;
+  border-radius: 15px !important;
+  white-space: wrap;
+  margin-inline: 10px;
+}
+/* .my-card>img{
+    display: inline-block;
+    margin: auto;
+} */
+.product-weight,
+.old-price {
+  font-size: 13px;
+  color: #666666;
+}
+.row-3 > p {
+  margin: 0px;
+}
+.my-tag {
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    width: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 13px;
+    background-color: #528cee;
+  }
+
+footer {
+  width: 95vw;
+  margin: auto;
+  margin-top: 80px;
+}
+#footer-row-1 {
+  display: flex;
+  margin-top: 30px;
+}
+#footer-table-1 {
+  flex: 2;
+  width: 100%;
+}
+#footer-table-2 {
+  flex: 3;
+}
+table {
+  width: 100%;
+}
+td {
+  color: #666666;
+  line-height: 30px;
+}
+td:hover {
+  line-height: 30px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+  text-shadow: 2px 2px 5px #666666;
+}
+
+#footer-row-2 {
+  font-size: 13px;
+  text-align: justify;
+  color: #666666;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#footer-row-2-col-1 {
+  flex: 1;
+  padding-inline: 10px;
+}
+#footer-row-2-col-2 {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#footer-row-2-col-1 > h6 {
+  color: #666666;
+}
+.box {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  background-color: #213a50;
+}
+#footer-row-2-col-3 {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 50%;
+}
+.insta:hover {
+  color: black;
+  background-color: #d62976;
+  box-shadow: 3px 3px 15px black;
+}
+.linked-in:hover {
+  color: black;
+  background-color: #0072b1;
+  box-shadow: 3px 3px 15px black;
+}
+.thread:hover {
+  color: black;
+  background-color: #d5a3f9;
+  box-shadow: 3px 3px 15px black;
+}
+.youtube:hover {
+  color: black;
+  background-color: #cd201f;
+  box-shadow: 3px 3px 15px black;
+}
+.twitter:hover {
+  color: black;
+  background-color: #00acee;
+  box-shadow: 3px 3px 15px black;
+}
+#footer-row-3 {
+  font-size: 15px;
+  text-align: justify;
+  color: #666666;
+}
+
+@media screen and (max-width: 480px) {
+  nav,
+  #footer-row-1 {
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: auto;
+  }
+  #nav-search {
+    width: 90vw;
+  }
+  nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: static;
+  }
+  .vertical-line {
+    display: none;
+  }
+  #hero-section {
+    display: none !important;
+  }
+  #footer-row-2,
+  #footer-table-1,
+  #footer-table-2,
+  #footer-row-2-col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  td {
+    padding-inline: 12px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .box {
+    margin-top: 10px;
+  }
+  #footer-row-2-col-3 {
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    margin-top: 10px;
+  }
+  #footer-row-3 {
+    width: 90vw;
+    margin: auto;
+  }
+  footer {
+    margin-top: 10px;
+  }
+}
