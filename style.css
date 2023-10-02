@@ -209,26 +209,31 @@ td:hover {
   );
   /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); */
   box-shadow: 3px 3px 15px black;
+  cursor: pointer;
 }
 .linked-in:hover {
   color: black;
   background-color: #0072b1;
   box-shadow: 3px 3px 15px black;
+  cursor: pointer;
 }
 .thread:hover {
   color: black;
   background-color: #d5a3f9;
   box-shadow: 3px 3px 15px black;
+  cursor: pointer;
 }
 .youtube:hover {
   color: black;
   background-color: #cd201f;
   box-shadow: 3px 3px 15px black;
+  cursor: pointer;
 }
 .twitter:hover {
   color: black;
   background-color: #00acee;
   box-shadow: 3px 3px 15px black;
+  cursor: pointer;
 }
 #footer-row-3 {
   font-size: 15px;
