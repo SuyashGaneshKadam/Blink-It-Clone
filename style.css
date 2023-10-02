@@ -235,6 +235,14 @@ td:hover {
   text-align: justify;
   color: #666666;
 }
+footer>h4{
+  text-align: center;
+  padding: 30px;
+}
+footer>h4>span{
+  color:red;
+  text-shadow: 3px 5px 10px red;
+}
 
 @media screen and (max-width: 480px) {
   nav,
@@ -243,8 +251,12 @@ td:hover {
     align-items: center !important;
     margin: auto;
   }
-  #nav-search {
+  .nav-search {
     width: 90vw;
+    padding-inline: 0px;
+  }
+  .nav-search > input{
+    width:70%;
   }
   nav {
     padding-top: 20px;
@@ -274,6 +286,9 @@ td:hover {
   .box {
     margin-top: 10px;
   }
+  #footer-row-2-col-1{
+    padding-inline: 0px !important;
+  }
   #footer-row-2-col-3 {
     justify-content: space-between;
     width: 90vw;
@@ -286,5 +301,8 @@ td:hover {
   }
   footer {
     margin-top: 10px;
+  }
+  footer>h4{
+    padding:15px;
   }
 }
